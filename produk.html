@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Viona Bakery</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff8fb;
+            margin: 0;
+        }
+        #header, #menu, #l-side, #content, #r-side, #footer {
+            float: left;
+        }
+        #header {
+            width: 100%;
+            background: linear-gradient(90deg, #ff80ab, #ffb74d);
+            height: 100px;
+            text-align: center;
+            color: #fff;
+            line-height: 100px;
+            font-size: 26px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        #menu {
+            width: 100%;
+            background: #ffd1dc;
+            text-align: right;
+            padding: 12px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        #menu a {
+            color: #8a1253;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #menu a:hover {
+            color: #d81b60;
+        }
+        #l-side {
+            width: 20%;
+            background: #ffe6ef;
+            min-height: 500px;
+            color: #d81b60;
+            padding: 15px;
+            font-weight: bold;
+        }
+        #content {
+            width: 60%;
+            background: #ffffff;
+            min-height: 500px;
+            padding: 20px;
+        }
+        #r-side {
+            width: 20%;
+            background: #ffe6ef;
+            min-height: 500px;
+            padding: 15px;
+            color: #d81b60;
+            font-weight: bold;
+        }
+        #footer {
+            width: 100%;
+            background: linear-gradient(90deg, #ff80ab, #ffb74d);
+            min-height: 80px;
+            text-align: center;
+            color: white;
+            line-height: 80px;
+            font-size: 14px;
+            clear: both;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            background: #fff0f5;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+        .product h4 {
+            margin: 0;
+            color: #d81b60;
+        }
+        .product p {
+            margin: 5px 0 0;
+            color: #6d4c41;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">🍰 Viona Bakery</div>
+
+    <div id="menu">
+        <a href="index.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="member.html">Member</a>
+        <a href="registrasi.html">Registrasi</a>
+    </div>
+
+    <div id="l-side">Kategori Produk
+        <ul>
+            <li>Roti Manis</li>
+            <li>Kue Tart</li>
+            <li>Donat</li>
+            <li>Pastry</li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <h3>Daftar Produk Roti Viona Bakery</h3>
+
+        <div class="product">
+            <img src="https://i1.wp.com/resepkoki.id/wp-content/uploads/2017/03/Resep-Roti-Bakar.jpg?fit=2132%2C2664&ssl=1" alt="Roti Coklat">
+            <div>
+                <h4>Roti Coklat Lumer</h4>
+                <p>Roti lembut dengan isian coklat meleleh, cocok untuk sarapan atau camilan sore hari.</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRSpGePiZ71X9lYCQ3KK07Ob9PRz1iyAHTjtwQRSSbKRkbub4nIglfiWuVlE0xhkc-RNbvMIVZSMegm9k49ZfUZL3dK5OafE41hF5N_c0ueXve7OBB1rq-Cj4QRXGg80_TgxHtPPeOO52DHUaoR2gN4ti-tN8KqZgPlCSlpmlOHQcqSBvJwjw/s320/roti%20keju.jpg" alt="Roti Keju">
+            <div>
+                <h4>Roti Keju Gurih</h4>
+                <p>Roti lembut bertopping keju parut melimpah, aroma gurih dan lezat menggugah selera.</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://doughnutlounge.com/wp-content/uploads/donut-glaze-recipe-without-milk.jpg" alt="Donat Glaze">
+            <div>
+                <h4>Donat Glaze Warna-warni</h4>
+                <p>Donat empuk dengan lapisan glaze aneka warna, cocok untuk acara ulang tahun dan pesta.</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.B0srWoRrlylDKhub1hHEZAAAAA?pid=Api&P=0&h=220" alt="Kue Tart Stroberi">
+            <div>
+                <h4>Kue Tart Black Forest</h4>
+                <p>Kue tart manis dengan topping stroberi segar dan krim lembut, favorit semua kalangan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="r-side">🎉 Promo & Iklan<br><br>
+        Dapatkan diskon 15% untuk pembelian semua produk roti minggu ini!<br><br>
+        🎁 Promo spesial ulang tahun pelanggan – roti gratis pilihan Anda!
+    </div>
+
+    <div id="footer">© 2025 Viona Bakery - Semua Hak Dilindungi 🍞</div>
+</body>
+</html>
